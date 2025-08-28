@@ -17,3 +17,8 @@
 #navbar .logo {
     width: 40px;
 }
+
+/* Header */
+header {
+    margin-top: 70px; /* Adjust the value as needed to create space below the navbar */
+}
