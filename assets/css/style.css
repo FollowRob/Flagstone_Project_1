@@ -6,8 +6,10 @@
     /* --secondary-font: 'Macondo', cursive; */
     --primary-color: rgba(214,201,187,1); /* warm taupe */
     --secondary-color: rgba(173,192,178,1); /* soft sage */
+    --tertiary-color: rgba(255,255,255,1); /* mist */
     --highlight-color: rgba(26,83,92,1); /* deep teal */
     --dark-highlight-color: rgba(38,50,56,1); /* ink */
+
 }
 
 /* navbar */
@@ -21,5 +23,13 @@
 
 /* Main */
 main {
-    margin-top: 70px; /* Adjust the value as needed to create space below the navbar */
+    margin-top: 70px; 
+}
+
+body {
+    background-color: var(--tertiary-color-color);
+}
+
+.compliance {
+    background-color: var(--secondary-color);
 }
