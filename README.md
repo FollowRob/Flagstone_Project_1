@@ -18,6 +18,8 @@ The navigation bar is fixed to the top of the page in order to make nagivation a
 
 All external links open to a new tab in order to avoid the user not returning after looking at external resources. 
 
+![Image of website in common screen sizes from ui.dev](assets/images/amiresponsive.png)
+
 - - -
 
 
@@ -32,7 +34,7 @@ Colours palette chosen was:
 - Warm Taupe: rgba(214, 201, 187, 1)
 - Ink: rgba(38, 50, 56, 1)
 
-### Insert Palette here
+![Image of the colour palette chosen](assets/images/palette.png)
 
 - - -
 
@@ -41,13 +43,16 @@ Colours palette chosen was:
 
 Google Fonts and Font Awesome libraries were used.
 
-The ***"Insert"*** Google font was used for all text elements on the site.
-
+The ***"Quicksand"*** Google font was used for all text elements on the site at a weight of 400.
 
 Font Awesome was used for icons used in the footer and elsewhere.
 
-- - -
+Favicon from Google Font “Cognition”
 
+Logo made by Upon Graphic from flaticon.com
+<a href="https://www.flaticon.com/free-icons/mental-health" title="mental health icons">Mental health icons created by Upnow Graphic - Flaticon</a>
+
+- - -
 
 ## Tools and Technology
 * HTML used for the main site content.
@@ -61,3 +66,15 @@ Font Awesome was used for icons used in the footer and elsewhere.
   * ADD MORE, W3C, JIGSAW validators, Co-pilot validation
 
 ChatGPT also assisted by generating the code for the "Immediate assistance" div in the Resources page. 
+
+Testing performed with Lighthouse:
+
+![Testing performed with Lighthouse](assets/images/lighthouse.png)
+
+- - -
+
+## Deployment
+
+When deploying this project, the repository was first created on GitHub and then cloned locally using VS Code. The project files, including an index.html, were added and changes were committed and pushed back to the remote repository. Deployment was enabled through the GitHub Pages settings, which serves the site directly from the repository branch. Once activated, any further commits that are pushed will automatically update and redeploy the live site without additional setup.
+
+The link to the deployment is: https://followrob.github.io/Flagstone_Project_1/
