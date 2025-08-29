@@ -1,18 +1,19 @@
 
+
 /* CSS Variables */
 :root {
     /* --primary-font: 'Inter', sans-serif; */
     /* --secondary-font: 'Macondo', cursive; */
-    /* --primary-color: #3a2620; dark brown */
-    /* --secondary-color: #aa9581; beige */
-    /* --highlight-color: #416a8e; blue */
-    /* --light-highlight-color: #7a9fc2; light blue */
+    --primary-color: rgba(214,201,187,1); /* warm taupe */
+    --secondary-color: rgba(173,192,178,1); /* soft sage */
+    --highlight-color: rgba(26,83,92,1); /* deep teal */
+    --dark-highlight-color: rgba(38,50,56,1); /* ink */
 }
 
 /* navbar */
-/* #navbar {
+#navbar {
     background-color: var(--primary-color);
-} */
+}
 
 #navbar .logo {
     width: 40px;
