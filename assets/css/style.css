@@ -2,8 +2,6 @@
 
 /* CSS Variables */
 :root {
-    /* --primary-font: 'Inter', sans-serif; */
-    /* --secondary-font: 'Macondo', cursive; */
     --primary-color: rgba(214,201,187,1); /* warm taupe */
     --secondary-color: rgba(173,192,178,1); /* soft sage */
     --tertiary-color: rgba(255,255,255,1); /* mist */
