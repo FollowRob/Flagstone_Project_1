@@ -1,8 +1,7 @@
 # Flagstone Project #1 'Mindful Balance'
 
-- - -
 
-## What is it?
+# What is it?
 
 Mindful Balance is a website with the dual purpose of providing mental health support to the general public and guidance to employers both based in the United Kingdom. 
 
@@ -10,7 +9,7 @@ The site contains information on the warning signs of a mental health crisis, a 
 
 - - -
 
-## UX
+# UX
 
 The website was designed to be clear, simplistic and calming. Information is provided clearly, concisely and in the order at which it is best actioned. 
 
@@ -19,6 +18,40 @@ The navigation bar is fixed to the top of the page in order to make nagivation a
 All external links open to a new tab in order to avoid the user not returning after looking at external resources. 
 
 ![Image of website in common screen sizes from ui.dev](assets/images/amiresponsive.png)
+
+## Navigation
+
+The page navigation is designed to be followed in a linear fashion like a workflow:
+
+Home -> Are you in crisis? -> What to do about it if you are? -> Advice for employers regarding mental health
+
+![img of the navbar as a workflow](assets/images/Navbar.png)
+
+## Homepage
+
+The Index page was designed as a hub for users to view what is available on the Mindful Balance website and make the decision whether it contains the resources they need and whether to continue with the site or not.
+
+![img of the Home page](assets/images/indexpage.png)
+
+## Signs of Crisis
+
+Signs of Crisis is the next step in the journey of the user, it provides an explaination of the importance of spotting the signs of struggle early and provides a list of common signs that can be observed either in others around them or in themselves.
+
+![img of the signs of crisis page](assets/images/signspage.png)
+
+## Resources
+
+The next step of the journey is the Resources page, this prompted the user to call 999 if someone is in a crisis and in immediate danger. The page contains two cards, one providind reasuring information for the reader if they are the one in need as well as next steps to follow. The second card contains information for the users who are observing that someone other than them is having a crisis as well as next steps. 
+
+The section below contains a list of resources that individuals in the UK can access to seek help. 
+
+![img of the resources page](assets/images/resourcepage.png)
+
+## Compliance
+
+The final page provides a header that reminds both employers and employees that employers have the legal and ethical responsibility to care for their employees wellbeing. The section below contains the key passages and titles of laws employers must follow to be in compliance with mental health and safety at their place of work. 
+
+![img of the compliance page](assets/images/compliancepage.png)
 
 - - -
 
@@ -54,7 +87,7 @@ Logo made by Upon Graphic from flaticon.com
 
 - - -
 
-## Tools and Technology
+# Tools and Technology
 * HTML used for the main site content.
 * CSS used for the main site design and layout.
 * Bootstrap 5 used for an enhanced responsive layout.
@@ -72,7 +105,7 @@ Testing performed with Lighthouse:
 
 - - -
 
-## The Use of AI
+# The Use of AI
 
 ChatGPT was utilised to generate the code for the "Immediate assistance" div in the Resources page, for the contributing content within the site itself and as a sounding board for some small errors that were made along the way.
 
@@ -82,7 +115,7 @@ AI certainly had a place in this project as all information was sourced with Cha
 
 - - -
 
-## Deployment
+# Deployment
 
 When deploying this project, the repository was first created on GitHub and then cloned locally using VS Code. The project files, including an index.html, were added and changes were committed and pushed back to the remote repository. Deployment was enabled through the GitHub Pages settings, which serves the site directly from the repository branch. Once activated, any further commits that are pushed will automatically update and redeploy the live site without additional setup.
 
